@@ -1,0 +1,22 @@
+body {
+    background-color: #121314;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #9fa1a3;
+    margin-left: 20px;
+}
+
+#Header {
+    color: #d7dadd;
+}
+
+#Header p {
+    margin-left: 15px;
+}
+
+.game {
+    align-self: center;
+    margin: 15px;
+    padding: 10px;
+    background-color: black;
+    color: #d7dadd;
+}
