@@ -21,6 +21,10 @@ body {
     color: #d7dadd;
 }
 
+#healthbar {
+  margin: 0px;
+}
+
 form input {
     background-color: black;
     color: #d7dadd;
