@@ -23,6 +23,7 @@ body {
 
 #healthbar {
   margin: 0px;
+  padding-top: 8px;
 }
 
 form input {

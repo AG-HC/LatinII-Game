@@ -59,13 +59,13 @@
 		"options":[
 			{
 				"text":"Shoot the lion with arrows",
-				"result":"You shoot the arrows, but they bounce off the lionâs hide. The lion retreats into a nearby cave.",
+				"result":"You shoot the arrows, but they bounce off the lion's hide. The lion retreats into a nearby cave.",
 				"next":5
 			},
 			{
 				"text":"Say hello to the lion",
 				"result":"The lion scratches you.",
-				"next":-1
+				"next":-2
 			}
 		]
 	},
@@ -76,7 +76,7 @@
 			{
 				"text":"Wait at the cave entrance",
 				"result":"The giant ball of twine rolls over and crushes you",
-				"next":-1
+				"next":-2
 			},
 			{
 				"text":"Follow it into the cave",
@@ -102,7 +102,7 @@
 			{
 				"text":"Wait here",
 				"result":"The giant ball of twine rolls into the cave and runs you over.",
-				"next":-1
+				"next":-2
 			}
 		]
 	},
@@ -113,7 +113,7 @@
 			{
 				"text":"Hit the lion with your club.",
 				"result":"Your club does not affect the lion. It swats you with its paw.",
-				"next":-1
+				"next":-2
 			},
 			{
 				"text":"Run.",
@@ -129,12 +129,12 @@
 			{
 				"text":"Pet the lion.",
 				"result":"The lion bites your hand.",
-				"next":-1
+				"next":-2
 			},
 			{
 				"text":"Swim away.",
 				"result":"The lion swims after you and attacks",
-				"next":-1
+				"next":-2
 			},
 			{
 				"text":"Jump on the lion’s back.",
@@ -189,7 +189,7 @@
 			{
 				"text":"Stay here.",
 				"result":"Somewhere in the distance, the giant ball of twine is loaded into a catapult. It is fired, and lands on you.",
-				"next":-1
+				"next":-2
 			}
 		]
 	},
@@ -205,7 +205,7 @@
 			{
 				"text":"Hug the hydra.",
 				"result":"The hydra is not a hugger.",
-				"next":-1
+				"next":-2
 			}
 		]
 	},
@@ -221,7 +221,7 @@
 			{
 				"text":"Jump in the fire.",
 				"result":"Why would you do that? That’s kinda painful.",
-				"next":-1
+				"next":-2
 			}
 		]
 	},
@@ -232,7 +232,7 @@
 			{
 				"text":"Leave the hydra’s head.",
 				"result":"You leave the hydra’s head. Suddenly, Iolaus stabs you. What a jerk.",
-				"next":-1
+				"next":0
 			},
 			{
 				"text":"Take the head.",

@@ -13,3 +13,8 @@
 * Added 2 alternative styles (light and rome)
 * JSON reading changes (function)
 * Minor game text spacing adjustments
+
+### 1.1a
+* Re-implemented health system
+* Minor health system adjustments
+* lionâs hide
