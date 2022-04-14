@@ -1,12 +1,12 @@
 body {
-  background-color: #121314;
-  color: #9fa1a3;
+  background-color: white;
   font-family: Calibri, 'Trebuchet MS', sans-serif;
+  color: black;
   margin-left: 20px;
 }
 
 #Header {
-  color: #d7dadd;
+  color: black;
 }
 
 #Header p {
@@ -17,8 +17,8 @@ body {
   align-self: center;
   margin: 15px;
   padding: 10px;
-  background-color: black;
-  color: #d7dadd;
+  background-color: #e7e8e8;
+  color: black;
 }
 
 #healthbar {
@@ -26,6 +26,6 @@ body {
 }
 
 form input {
-  background-color: black;
-  color: #d7dadd;
+  background-color: white;
+  color: black;
 }

@@ -1,0 +1,35 @@
+body {
+  background-color: #eeecea;
+  color: black;
+  font-family: Calibri, 'Trebuchet MS', sans-serif;
+  margin-left: 20px;
+}
+
+#Header {
+  color: #851d1d;
+}
+
+#Header p {
+  margin-left: 15px;
+}
+
+.game {
+  align-self: center;
+  margin: 15px;
+  padding: 10px;
+  background-color: #d3cac5;
+  color: black;
+}
+
+#healthbar {
+  margin: 0px;
+}
+
+form input {
+  background-color: #a61a17;
+  border-top-color: #6e1817;
+  border-right-color: #6e1817;
+  border-bottom-color: #6e1817;
+  border-left-color: #6e1817;
+  color: #eeecea;
+}

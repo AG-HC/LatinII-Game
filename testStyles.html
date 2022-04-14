@@ -2,34 +2,35 @@
 
 <html lang="en">
     <head>
-        <title>TLOH:BOTT</title>
+        <title>Pretty</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="styles.css">
-        <script defer src="game.js">                </script>
+        <link rel="stylesheet" href="styles.css" id="stylesDoc">
     </head>
-    <body>
+      <body>
         <div id="Header">
-          <h1>The Legend of Hercules: Breath of the Twine</h1>
-          <p>A JS based text adventure game where you get to choose your own adventure in the Greco-Roman mythos. </p>
+          <h1>TitleTitleTitleTitle</h1>
+          <p>Click the below buttons to try different styles</p>
           <!--<p>Try not to die :D</p>-->
-          <p><a href="./testStyles.html">Check out styles</a></p>
-        </div>        
+          <p><a href="./index.html">Take me back</a></p>
+        </div>
         <div class="game">
             <!--Stop hacking-->
 <!--             <p id="healthbar">Health: 3</p> -->
-            <div id="text"></div>
+            <div id="text">TextTextTextTextTextTextText</div>
             <br>
             <form id="buttons">
               <input type="button" id="AButton" name="AButton" value="A" onclick="buttonPress(0)">
               <input type="button" id="B=Button" name="BButton" value="B" onclick="buttonPress(1)">
               <input type="button" id="CButton" name="CButton" value="C" onclick="buttonPress(2)">
               <input type="button" id="DButton" name="DButton" value="D" onclick="buttonPress(3)">
-              <!--
-                <label for="gameIn">: </label>
-                <input type="text" id="gameIn" name="gameIn" autocomplete="off">
-              -->
+              <script>
+                function buttonPress(x) {
+                  let stylesEl = document.getElementById("stylesDoc");
+                  let styles = ["styles.css", "testStyles/light1.css", "testStyles/rome.css", "testStyles/light1.css"]
+                  stylesEl.href = styles[x];
+                }
+              </script>
             </form>
         </div>
     </body>
-</html>
