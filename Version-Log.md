@@ -18,3 +18,9 @@
 * Re-implemented health system
 * Minor health system adjustments
 * lionâs hide
+
+### 1.1b
+* Randomly selected damage flavortext added
+* Minor trial 1 JSON bugfix
+* CSS spacing tweak
+* RomaEstInItalia

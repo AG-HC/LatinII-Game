@@ -13,9 +13,13 @@ body {
   margin-left: 15px;
 }
 
+a {
+  color: #d7dadd;
+}
+
 .game {
   align-self: center;
-  margin: 15px;
+  margin: 0px;
   padding: 10px;
   background-color: black;
   color: #d7dadd;
