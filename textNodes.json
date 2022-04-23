@@ -150,7 +150,7 @@
 			{
 				"text":"Pick up it's pelt",
 				"result":"You pick up the pelt. Somehow, it magically turned into a coat once the lion was killed. You don the coat and walk out of the cave. You go back to Nemea. The people cheer as you walk victoriously through the streets. You approach King Eurystheus.\nKing Eurystheus: Wow. You actually did it. I really thought that you would die. Dang, that’s impressive. Ha. Probably shouldn’t have said that. Ok goodbye Hercules please don’t hurt me I’m a frail old man I can’t die my people need me I’m sorry Hercules.",
-				"next":10
+				"next":100
 			},
 			{
 				"text":"Exit",
@@ -244,84 +244,70 @@
 ],
 [
   {
-		"id":0,
-		"text":"",
+		"id":1,
+		"text":"King Eurystheus: Ok Hercules, next I need you to go kill a deer for no reason. I am just in a murdery mood. It’s the deer of Diana, the Goddess of the hunt so… have fun I suppose.",
 		"options":[
 			{
-				"text":"",
-				"result":"",
-				"next":1
+				"text":"Accuse him of running out of ideas.",
+				"result":"King Eurystheus: I am not out of ideas! You’re out of ideas!",
+				"next":-1
 			},
 			{
-				"text":"",
+				"text":"Just go do it.",
 				"result":"",
-				"next":-1
+				"next":2
 			}
 		]
 	},
   {
-		"id":0,
-		"text":"",
+		"id":2,
+		"text":"You walk off into the forest, see the deer, and shoot it with an arrow. Diana appears.\nDiana: Foolish mortal! You dare kill my beautiful pet. I will kill you for this!",
 		"options":[
 			{
-				"text":"",
+				"text":"Run",
 				"result":"",
-				"next":1
+				"next":3
 			},
 			{
-				"text":"",
-				"result":"",
-				"next":-1
+				"text":"Apologize",
+				"result":"You get shot with an arrow.",
+				"next":-2
 			}
 		]
 	},
   {
-		"id":0,
-		"text":"",
+		"id":3,
+		"text":"You run. You sprint into the forest as dozens of arrows go by your head.",
 		"options":[
 			{
-				"text":"",
-				"result":"",
-				"next":1
+				"text":"Continue running",
+				"result":"Diana shoots you.",
+				"next":-2
 			},
 			{
-				"text":"",
-				"result":"",
+				"text":"Explain why you killed the deer.",
+				"result":"You explain that Apollo is making you do these labors.\nDiana: Yeah, that sounds like my brother. He’s an idiot.\nShe heals the deer, and allows you to bring it back to King Eurystheus. She also gives you a silver arrow.\nKing Eurystheus: Wow, you’re doing these tasks with incredible speed. S-S-S-Soon I will be reborn.\nHercules: What was that?\nKing Eurystheus: What? I said you were doing these tasks quickly.",
+				"next":100
+			}
+		]
+	}
+],
+[
+	{
+		"id":1,
+		"text":"You travel to Mount Erymanthus. You remember that your friend lives there, the centaur Pholus. You enter his cave, which is filled with centaurs.\nPholus: Hercules, ol’ buddy ol’ pal! How have you been? It’s been too long, my friend. Here, drink some wine.\nYou open the bottle of wine and pour yourself a glass.\nCentaur 1: Hey wait, he drank our wine.\nCentaur 2: I’ve never seen a centaur with two legs. Wait, he isn’t a centaur!\nThe horde of centaurs approach you. You turn to Pholus, but he is hidden behind the counter.",
+		"options":[
+			{
+				"text":"Attack the centaurs",
+				"result":"You hit one centaur over the head with your club. You take out your bow and shoot the silver arrow through another one. The arrow quickly returns to your hand. You begin using it as a melee weapon. All of the centaurs are dead.\nPholus: Wow, that is a cool arrow. Can I see it? This looks like it was built by Diana herself! And that enchantment to make it come back to your hand is…\nHe drops it on his hoof and dies instantly. You leave his bar. You use the glass of wine to lure the boar to King Eurystheus.",
+				"next":100
+			},
+			{
+				"text":"Drink wine",
+				"result":"You don’t handle alcohol well, and now you can’t see straight.",
 				"next":-1
 			}
 		]
-	},
-  {
-		"id":0,
-		"text":"",
-		"options":[
-			{
-				"text":"",
-				"result":"",
-				"next":1
-			},
-			{
-				"text":"",
-				"result":"",
-				"next":-1
-			}
-		]
-	},
-  {
-		"id":0,
-		"text":"",
-		"options":[
-			{
-				"text":"",
-				"result":"",
-				"next":1
-			},
-			{
-				"text":"",
-				"result":"",
-				"next":-1
-			}
-		]
-	},
+	}
 ]
 ]
