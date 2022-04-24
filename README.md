@@ -3,10 +3,20 @@ HTML and JS text-based adventure game based on the Herculean Trials
 
 # Changelog
 
+### 1.3
+* Trial 5
+* You approach the lion_x2
+* Fixed missing spacing after damage
+Styling
+* Added healthbar to test styles and updated to match main style sheet
+* Adjustments to css inheritance
+* Finally centered the game
+* Bad speling
+
 ## 1.2
 * Added Trials 3 and 4
 * Modified handler for changing trials
-* Temporairily increased health to 5 for testing purposes
+* Temporarily increased health to 5 for testing purposes
 * Fixed health display not updating on trial change
 * Minor game code adjustments
 * If game not done, game undon'st

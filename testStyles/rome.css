@@ -2,11 +2,11 @@ body {
   background-color: #eeecea;
   color: black;
   font-family: Calibri, 'Trebuchet MS', sans-serif;
-  margin-left: 20px;
 }
 
 #Header {
   color: #851d1d;
+  margin-left: 10px;
 }
 
 #Header p {
@@ -23,6 +23,7 @@ body {
 
 #healthbar {
   margin: 0px;
+  padding-top: 8px;
 }
 
 form input {

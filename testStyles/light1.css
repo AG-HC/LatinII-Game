@@ -1,12 +1,12 @@
 body {
   background-color: white;
-  font-family: Calibri, 'Trebuchet MS', sans-serif;
   color: black;
-  margin-left: 20px;
+  font-family: Calibri, 'Trebuchet MS', sans-serif;
 }
 
 #Header {
   color: black;
+  margin-left: 10px;
 }
 
 #Header p {
@@ -23,6 +23,7 @@ body {
 
 #healthbar {
   margin: 0px;
+  padding-top: 8px;
 }
 
 form input {

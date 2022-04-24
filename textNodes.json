@@ -43,7 +43,7 @@
 		"options":[
 			{
 				"text":"Yes, of course I will help",
-				"result":"King Eurysthesus: Thank you. The lion is just up ahead.\nYou approach the lion. It is very large, and would be destroying the city if not distracted by an equally large ball of twine.",
+				"result":"King Eurysthesus: Thank you. The lion is just up ahead.",
 				"next":4
 			},
 			{
@@ -305,6 +305,88 @@
 			{
 				"text":"Drink wine",
 				"result":"You don’t handle alcohol well, and now you can’t see straight.",
+				"next":-1
+			}
+		]
+	}
+],
+[
+	{
+		"id":1,
+		"text":"Eurystheus: Welcome back, Hercules. For your next labor, you must clean the stables of my rival king, Augeas. He owns more cattle than any other in all of Greece, and he can’t spend the time to clean it himself. Go over and clean them.\nYou go to King Augeas.\nKing Augeas: Hello mysterious traveler. I hear you have come to clean my stables. I will allow this. However, if you were sent here by my enemy, I will curse you with the worst thing imaginable.",
+		"options":[
+			{
+				"text":"Clean the stables.",
+				"result":"",
+				"next":2
+			},
+			{
+				"text":"Do a backflip.",
+				"result":"What… the heck… why would you do that? I’m genuinely really confused. Why did you think that would accomplish anything?",
+				"next":-1
+			}
+		]
+	},
+	{
+		"id":2,
+		"text":"You walk over to the stables. You immediately see just how dirty they are. Also, the cows are not very polite.",
+		"options":[
+			{
+				"text":"Kill the cows",
+				"result":"Hercules. Why? Why would you do that?",
+				"next":-1
+			},
+			{
+				"text":"Look for a way to clean it.",
+				"result":"",
+				"next":3
+			}
+		]
+	},
+	{
+		"id":3,
+		"text":"You walk around the stables. You see a nearby stream, although you cannot think of a way to get the water to the stables.",
+		"options":[
+			{
+				"text":"Walk away.",
+				"result":"The giant ball of twine hits you again.",
+				"next":-1
+			},
+			{
+				"text":"Make a deal with the river.",
+				"result":"",
+				"next":4
+			}
+		]
+	},
+	{
+		"id":4,
+		"text":"You begin speaking to the river. You ask it to wash up into the stables and clean them. Of course, it being a river, it does not respond. Then, you throw in a coin you had in your pocket. The river explodes. Water rushes up into the stables, cleaning them instantly. When the water returns to the river, you feel a sand dollar in your pocket.",
+		"options":[
+			{
+				"text":"Go tell King Augeas.",
+				"result":"",
+				"next":5
+			},
+			{
+				"text":"Drown",
+				"result":"Ok why do you insist on doing these things?",
+				"next":-1
+			}
+		]
+	},
+	{
+		"id":5,
+		"text":"You go back to King Augeas.\nKing Augeas: Welcome back, mysterious stranger. Or should I say, HERCULES! That’s right, I figured out who sent you. Now, you will face THE WRATH OF MY LEGAL TEAM! MUHAHAHAHAHAHA!",
+		"options":[
+			{
+				"text":"Find a lawyer.",
+				"result":"You find a lawyer. You are ready for court. You enter a court montage. Unfortunately, there are no visuals in this montage, so you will have to piece it together using out of context voice lines and actions.\n\nKing Augeas: Your honor, I’m mad.\nYour lawyer: Checkmate, idiots.\nThe judge looks concerned.\nThe king’s lawyer: As you can see, this man has no arms.\nYou all have a disco party and begin breakdancing.\nThe Judge: Case dismissed. Hercules wins.\nThe montage ends.\nKing Augeas: Well, I suppose you win. Wait, what was that about a disco party?\nYour lawyer: What happens in the montage stays in the montage.",
+				"next":100
+			},
+			{
+				"text":"Self-represent",
+				"result":"That is a terrible decision.",
 				"next":-1
 			}
 		]

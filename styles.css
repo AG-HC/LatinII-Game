@@ -2,11 +2,11 @@ body {
   background-color: #121314;
   color: #9fa1a3;
   font-family: Calibri, 'Trebuchet MS', sans-serif;
-  margin-left: 20px;
 }
 
 #Header {
   color: #d7dadd;
+  margin-left: 10px;
 }
 
 #Header p {
@@ -19,7 +19,7 @@ a {
 
 .game {
   align-self: center;
-  margin: 0px;
+  margin: 15px;
   padding: 10px;
   background-color: black;
   color: #d7dadd;
