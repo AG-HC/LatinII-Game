@@ -3,7 +3,12 @@ HTML and JS text-based adventure game based on the Herculean Trials
 
 # Changelog
 
-### 1.3
+## 1.4
+* Trial 6 and 7
+* Top navigation bar for skipping to specific trials (additional styling needed)
+
+
+## 1.3
 * Trial 5
 * You approach the lion_x2
 * Fixed missing spacing after damage

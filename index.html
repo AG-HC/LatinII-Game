@@ -9,27 +9,44 @@
         <script defer src="game.js"></script>
     </head>
     <body>
-        <div id="Header">
-          <h1>The Legend of Hercules: Breath of the Twine</h1>
-          <p>A JS based text adventure game where you get to choose your own adventure in the Greco-Roman mythos. </p>
-          <!--<p>Try not to die :D</p>-->
-          <p><a href="./testStyles.html">Check out styles</a></p>
-        </div>
-        <div class="game">
-            <!--Stop hacking-->
-            <div id="text"></div>
-            <br>
-            <form id="buttons">
-              <input type="button" id="AButton" name="AButton" value="A" onclick="buttonPress(0)">
-              <input type="button" id="B=Button" name="BButton" value="B" onclick="buttonPress(1)">
-              <input type="button" id="CButton" name="CButton" value="C" onclick="buttonPress(2)">
-              <input type="button" id="DButton" name="DButton" value="D" onclick="buttonPress(3)">
-              <!--
-                <label for="gameIn">: </label>
-                <input type="text" id="gameIn" name="gameIn" autocomplete="off">
-              -->
-            </form>
-          <p id="healthbar">Health: uhoh</p>
-        </div>
+      <div id="Top">
+        <p>Skip to Trial:</p>
+        <form id="tButtons">
+          <input type="button" name="1Button" value="1" onclick="tbuttonPress(0)">
+          <input type="button" name="2Button" value="2" onclick="tbuttonPress(1)">
+          <input type="button" name="3Button" value="3" onclick="tbuttonPress(2)">
+          <input type="button" name="4Button" value="4" onclick="tbuttonPress(3)">
+          <input type="button" name="1Button" value="5" onclick="tbuttonPress(4)">
+          <input type="button" name="2Button" value="6" onclick="tbuttonPress(5)">
+          <input type="button" name="3Button" value="7" onclick="tbuttonPress(6)">
+          <input type="button" name="4Button" value="8" onclick="tbuttonPress(7)">
+          <input type="button" name="1Button" value="9" onclick="tbuttonPress(8)">
+          <input type="button" name="2Button" value="10" onclick="tbuttonPress(9)">
+          <input type="button" name="3Button" value="11" onclick="tbuttonPress(10)">
+          <input type="button" name="4Button" value="12" onclick="tbuttonPress(11)">
+        </form>
+      </div>
+      <div id="Header">
+        <h1>The Legend of Hercules: Breath of the Twine</h1>
+        <p>A JS based text adventure game where you get to choose your own adventure in the Greco-Roman mythos. </p>
+        <!--<p>Try not to die :D</p>-->
+        <p><a href="./testStyles.html">Check out styles</a></p>
+      </div>
+      <div class="game">
+          <!--Stop hacking-->
+          <div id="text"></div>
+          <br>
+          <form id="buttons">
+            <input type="button" id="AButton" name="AButton" value="A" onclick="buttonPress(0)">
+            <input type="button" id="B=Button" name="BButton" value="B" onclick="buttonPress(1)">
+            <input type="button" id="CButton" name="CButton" value="C" onclick="buttonPress(2)">
+            <input type="button" id="DButton" name="DButton" value="D" onclick="buttonPress(3)">
+            <!--
+              <label for="gameIn">: </label>
+              <input type="text" id="gameIn" name="gameIn" autocomplete="off">
+            -->
+          </form>
+        <p id="healthbar">Health: uhoh</p>
+      </div>
     </body>
 </html>
