@@ -3,6 +3,10 @@ HTML and JS text-based adventure game based on the Herculean Trials
 
 # Changelog
 
+## 1.5
+* 12 Trials completed
+* ඞ
+
 ## 1.4
 * Trial 6 and 7
 * Top navigation bar for skipping to specific trials (additional styling needed)
