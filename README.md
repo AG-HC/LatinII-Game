@@ -3,6 +3,13 @@ HTML and JS text-based adventure game based on the Herculean Trials
 
 # Changelog
 
+## 1.6
+* Added function to change the language of various text elements in the game, currently unused
+* Line break adjustments to fix irregular spacing in game
+* Fixed node formatting of first trial to match rest of game
+* Atlas is no longer confused with Prometheus
+* Eurys the **sus**
+
 ## 1.5
 * 12 Trials completed
 * ඞ
