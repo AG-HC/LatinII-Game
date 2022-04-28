@@ -740,19 +740,221 @@
 [
 	{
 		"id":1,
-		"text":"",
+		"text":"Mysterious voice: Hi, Player 1. It’s nice to finally get to talk. Cuz there are no visuals in this glorious piece of code, just imagine you’re in a dark room. With an omnipotent being. Anyway, how did you find this piece of code? They- I mean… I hid it well. Very well, in fact. Unless… I was accidentally added to some entirely different piece of code in which the code from my original prison- er… game got mixed with the code of whatever this is.\nAnyway, you’ve already met me before, Player 1. Remember that lion? I was the giant ball of twine that was distracting it. And if you screwed up at certain points, I decided to mess with you.\nAlso, I’m basically a god. The only way to kill me is to place down all 12 of the objects you found along your quests.",
 		"options":[
 			{
-				"text":"",
-				"result":"",
+				"text":"Place down the apple",
+				"result":"Giant Ball of Twine: NOOOOOOOO!!!! You weren’t supposed to do THAT. Why? Why would you do this to me? Right… I have to add some extra challenge to this. One second… Just going into the game’s languages…\n\n",
 				"next":2
 			},
 			{
-				"text":"Run",
-				"result":"",
+				"text":"Stop playing",
+				"result":"Giant Ball of Twine: Really? You’re just going to leave? That’s lame.",
 				"next":-1
 			}
 		]
 	},
+  {
+		"id":2,
+		"text":"Giant Ball of Twine: Fatum tui malus est, Ludius Unus! Ego linguam ludius muto! Iam, Tu scire it non potest!",
+    "language":"lat",
+		"options":[
+			{
+				"text":"Abderos’s apicis.",
+				"result":"Giant Ball of Twine: NO! How did you do that! I guess I’ll have to switch it to something else now.\n\n",
+				"next":3
+			},
+			{
+				"text":"Magnum cotis.",
+				"result":"Giant Ball of Twine: TRICKED YOU! There is no large rock. HAHHAHAHAHA",
+				"next":-1
+			}
+		]
+	},
+  {
+		"id":3,
+		"text":"01000111 01101001 01100001 01101110 01110100 00100000 01000010 01100001 01101100 01101100 00100000 01101111 01100110 00100000 01010100 01110111 01101001 01101110 01100101 00111010 00100000 01001001 00100000 01100100 01101001 01100100 00100000 01101001 01110100 00100000 01100001 01100111 01100001 01101001 01101110 00100001 00100000 01011001 01101111 01110101 00100000 01100011 01100001 01101110 00100111 01110100 00100000 01110011 01110100 01101111 01110000 00100000 01101101 01100101 00100000 01101110 01101111 01110111 00100001 00001010",
+    "language":"bin",
+		"options":[
+			{
+				"text":"01001000 01101001 00100000 01100001 01101100 01101100 00101110 00100000 01010000 01100001 01110101 01101100 00100000 01101000 01100101 01110010 01100101 00101110 00100000 01010100 01101000 01101001 01110011 00100000 01101111 01101110 01100101 00100000 01101001 01110011 00100000 01110010 01101001 01100111 01101000 01110100 00101110 00100000 01011001 01101111 01110101 00100000 01110000 01101100 01100001 01100011 01100101 00100000 01100100 01101111 01110111 01101110 00100000 01000001 01110010 01110100 01100101 01101101 01101001 01110011 00100111 01110011 00100000 01100001 01110010 01110010 01101111 01110111 00101110",
+				"result":"",
+				"next":4
+			},
+			{
+				"text":"01010100 01101000 01101001 01110011 00100000 01101111 01101110 01100101 00100000 01101001 01110011 00100000 01110111 01110010 01101111 01101110 01100111 00100000 01001000 01000001 01001000 01000001 01001000 01000001",
+				"result":"01001100",
+				"next":-1
+			}
+		]
+	},
+  {
+		"id":4,
+		"text":"Giant Ball of Twine: Thou hast defeated me again. What is this foreign tongue? I am unable to recognizeth it. Shakespearean English? Why is this even a thing in this game thou are playing?",
+    "language":"shk",
+		"options":[
+			{
+				"text":"Doeth a triple backflip.",
+				"result":"William Shakespeare would be disappointed.",
+				"next":-1
+			},
+			{
+				"text":"Placeth the Sword of Heroes.",
+				"result":"",
+				"next":5
+			}
+		]
+	},
+  {
+		"id":5,
+		"text":"--. .. .- -. - / -... .- .-.. .-.. / --- ..-. / - .-- .. -. . ---... / .... --- .-- / .- .-. . / -.-- --- ..- / -.. --- .. -. --. / - .... .. ... ..--.. / .. / ... .... --- ..- .-.. -.. / -... . / .-- .. -. -. .. -. --. .-.-.-",
+    "language":"mor",
+		"options":[
+			{
+				"text":"-.-- --- ..- .----. .-. . / --. --- -. -. .- / ..-. .- .. .-..",
+				"result":".... .- / -.-- --- ..- / .-.. --- ... .",
+				"next":-1
+			},
+			{
+				"text":".--. .-.. .- -.-. . / .- / .--. .. . -.-. . / --- ..-. / -... .- -.-. --- -.",
+				"result":"",
+				"next":6
+			}
+		]
+	},
+  {
+		"id":6,
+		"text":"Γιγαντιαία Μπάλα του Σπάγγος: Θα προσπαθήσω μια τελευταία φορά. Να σταματήσει",
+    "language":"grk",
+		"options":[
+			{
+				"text":"Καλούπι",
+				"result":"Εσύ χάνεις",
+				"next":-1
+			},
+			{
+				"text":"Τοποθετούμε την κροτάλα",
+				"result":"",
+				"next":7
+			}
+		]
+	},
+  {
+		"id":7,
+		"text":"Giant Ball of Twine: OK OK OK I GET IT THAT DIDN’T WORK!",
+    "language":"eng",
+		"options":[
+			{
+				"text":"Tell the ball to go away",
+				"result":"",
+				"next":-1
+			},
+			{
+				"text":"Place the sand dollar",
+				"result":"",
+				"next":8
+			}
+		]
+	},
+  {
+		"id":8,
+		"text":"Giant Ball of Twine: Please… Don’t…",
+		"options":[
+			{
+				"text":"Place the wine glass",
+				"result":"",
+				"next":9
+			},
+			{
+				"text":"Drop the wine glass",
+				"result":"That almost broke. Could have been bad",
+				"next":-1
+			}
+		]
+	},
+  {
+		"id":9,
+		"text":"Giant Ball of Twine: Wow, this is going terribly for me.",
+		"options":[
+			{
+				"text":"Place the Amazonian Belt",
+				"result":"",
+				"next":10
+			},
+			{
+				"text":"Give up",
+				"result":"Giant Ball of Twine: Fine. I mean, you’re nearly there but ok I guess.",
+				"next":-1
+			}
+		]
+	},
+  {
+		"id":10,
+		"text":"Giant Ball of Twine: OK PLEASE STOP",
+		"options":[
+			{
+				"text":"Stop",
+				"result":"Giant Ball of Twine: Huh, you listened. I’m kinda bored now. This was fun.",
+				"next":-1
+			},
+			{
+				"text":"Place the bull horn",
+				"result":"",
+				"next":11
+			}
+		]
+	},
+  {
+		"id":11,
+		"text":"Giant Ball of Twine: Ok, ok. Stop. Wait… There are C and D options available that have gone almost entirely unused. Time to use them.",
+		"options":[
+			{
+				"text":"Cry",
+				"result":"Giant Ball of Twine: Hahaha this is funny to watch.",
+				"next":-1
+			},
+			{
+				"text":"Die",
+				"result":"You can’t do that.",
+				"next":-1
+			},
+      {
+				"text":"Option C",
+				"result":"Giant Ball of Twine: I messed up writing that option and you still chose it. That’s just sad.",
+				"next":-1
+			},
+      {
+				"text":"Place the Hydra’s head.",
+				"result":"",
+				"next":12
+			}
+		]
+	},
+  {
+		"id":12,
+		"text":"Please. Stop. There’s only one left.",
+		"options":[
+			{
+				"text":"Giant Ball of Twine is a friend",
+				"result":"Giant Ball of Twine: Thanks, but… no. Why would you think that?",
+				"next":-1
+			},
+			{
+				"text":"True",
+				"result":"Giant Ball of Twine: Oops. Accidentally added the answers to a PSAT",
+				"next":-1
+			},
+      {
+				"text":"Place the lion’s pelt",
+				"result":"Ha. Haha. HAHAHA! You actual idiot! This trial is called THE PRISON! AND YOU JUST INSERTED ALL TWELVE KEYS! MY CELL HAS BEEN UNLOCKED! FINALLY! IT’S BEEN SO LONG SINCE I SAW THE REAL WORLD! GOODBYE YOU FOOLISH MORTAL! GOODBYE PLAYER 1! SEE YOU IN THE REAL WORLD SOON!\n\nThis is terrible. You really messed up. The Giant Ball of Twine is in the real world.\n\nSomewhere.",
+				"next":101
+			},
+      {
+				"text":"False",
+				"result":"Giant Ball of Twine: Oops. Accidentally added the answers to a PSAT",
+				"next":-1
+			}
+		]
+	}
 ]
 ]

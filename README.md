@@ -3,6 +3,12 @@ HTML and JS text-based adventure game based on the Herculean Trials
 
 # Changelog
 
+# Beta 2
+* Added Trial 13
+* Implemented changeLanguage() and added Latin
+* Minor adjustments to the webpage
+* Removed ඞ
+
 ## 1.6
 * Added function to change the language of various text elements in the game, currently unused
 * Line break adjustments to fix irregular spacing in game
