@@ -3,6 +3,14 @@ HTML and JS text-based adventure game based on the Herculean Trials
 
 # Changelog
 
+## 2.1
+* Better latin (sorry Paul)
+* Started work on random encounters
+* Trial 13 now hides trial change and themes link
+* Fixed textnode errors
+* Minor fixes to alternate themes
+* Renaming of some files
+
 # Beta 2
 * Added Trial 13
 * Implemented changeLanguage() and added Latin

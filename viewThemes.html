@@ -5,23 +5,24 @@
         <title>Pretty</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="styles.css" id="stylesDoc">
+        <link rel="stylesheet" href="styles/dark.css" id="stylesDoc">
     </head>
     <body>
       <div id="Top">
-        <p>Skip to Trial:</p>
+        <p>Buttons:</p>
         <form id="tButtons">
-          <input type="button" id="AButton" name="1Button" value="1" onclick="tbuttonPress(0)">
-          <input type="button" id="B=Button" name="2Button" value="2" onclick="tbuttonPress(1)">
-          <input type="button" id="CButton" name="3Button" value="3" onclick="tbuttonPress(2)">
-          <input type="button" id="DButton" name="4Button" value="4" onclick="tbuttonPress(3)">
-          <style media="screen">
-            #Top {
-              background-color: black;
-              padding: 5px;
-              margin: 0px 0px 5px 0px;
-            }
-          </style>
+          <input type="button" name="1Button" value="1" onclick="tbuttonPress(0)">
+          <input type="button" name="2Button" value="2" onclick="tbuttonPress(1)">
+          <input type="button" name="3Button" value="3" onclick="tbuttonPress(2)">
+          <input type="button" name="4Button" value="4" onclick="tbuttonPress(3)">
+          <input type="button" name="1Button" value="5" onclick="tbuttonPress(4)">
+          <input type="button" name="2Button" value="6" onclick="tbuttonPress(5)">
+          <input type="button" name="3Button" value="7" onclick="tbuttonPress(6)">
+          <input type="button" name="4Button" value="8" onclick="tbuttonPress(7)">
+          <input type="button" name="1Button" value="9" onclick="tbuttonPress(8)">
+          <input type="button" name="2Button" value="10" onclick="tbuttonPress(9)">
+          <input type="button" name="3Button" value="11" onclick="tbuttonPress(10)">
+          <input type="button" name="4Button" value="12" onclick="tbuttonPress(11)">
         </form>
       </div>
       <div id="Header">
@@ -43,7 +44,7 @@
             <script>
               function buttonPress(x) {
                 let stylesEl = document.getElementById("stylesDoc");
-                let styles = ["styles.css", "testStyles/light1.css", "testStyles/rome.css", "testStyles/light1.css"]
+                let styles = ["styles/dark.css", "styles/light.css", "styles/rome.css", "styles/light.css"]
                 stylesEl.href = styles[x];
               }
               const textEl = document.getElementById('text');

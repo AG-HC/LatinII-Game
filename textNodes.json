@@ -50,7 +50,7 @@
 	},
 	{
 		"id":4,
-		"text":"King Eurysthesus: Thank you. The lion is just up ahead.\nYou approach the lion. It is very large, and would be destroying the city if not distracted by an equally large ball of twine.",
+		"text":"King Eurystheus: Thank you. The lion is just up ahead.\nYou approach the lion. It is very large, and would be destroying the city if not distracted by an equally large ball of twine.",
 		"options":[
 			{
 				"text":"Shoot the lion with arrows",
@@ -640,7 +640,7 @@
 	},
 	{
 		"id":2,
-		"text":"You walk around. You begin a quest to go over nerdy mountains. You approach a son of Poseidon and a son of Ares, who do not let you pass.",
+		"text":"You walk around. You begin a quest to go over nearby mountains. You approach a son of Poseidon and a son of Ares, who do not let you pass.",
 		"options":[
 			{
 				"text":"Fire your club out of your bow.",
@@ -756,16 +756,16 @@
 	},
   {
 		"id":2,
-		"text":"Giant Ball of Twine: Fatum tui malus est, Ludius Unus! Ego linguam ludius muto! Iam, Tu scire it non potest!",
+		"text":"Giant Ball of Twine: Fatum tui malus est, Ludius Unus! Ego linguam ludius muto! Iam, tu scire it non potest!",
     "language":"lat",
 		"options":[
 			{
-				"text":"Abderos’s apicis.",
+				"text":"Ponit causea Abderi.",
 				"result":"Giant Ball of Twine: NO! How did you do that! I guess I’ll have to switch it to something else now.\n\n",
 				"next":3
 			},
 			{
-				"text":"Magnum cotis.",
+				"text":"Ponit cotis magna.",
 				"result":"Giant Ball of Twine: TRICKED YOU! There is no large rock. HAHHAHAHAHA",
 				"next":-1
 			}
@@ -846,7 +846,7 @@
 		"options":[
 			{
 				"text":"Tell the ball to go away",
-				"result":"",
+				"result":"Giant Ball of Twine: No",
 				"next":-1
 			},
 			{
@@ -957,4 +957,97 @@
 		]
 	}
 ]
+]
+[
+  [
+    {
+  		"id":1,
+  		"text":"You are approached by three sketchy looking guys.\nSketchy guys: We are the bandits of the west. Disregard the fact that you are in the east of Greece. It doesn’t matter. We are the bandits of the west.\nOne of the bandits unsheathes his sword, a second bandit pulls out his bow. The third pulls out a parchment containing terrible poetry.",
+  		"options":[
+  			{
+  				"text":"Challenge Bandit 1 to a duel",
+  				"result":"",
+  				"next":2.1
+  			},
+  			{
+  				"text":"Show Bandit 2 your silver arrow",
+  				"result":"",
+  				"next":2.2
+  			},
+        {
+  				"text":"Challenge Bandit 3 to rap battle",
+  				"result":"Temporary You Win! :D\nPlease dont break",
+  				"next":100
+  			},
+        {
+  				"text":"Run",
+  				"result":"You run away from the bandits, when you get sort of far away, they come rolling back over to you on a giant rolling ball of twine. You feel embarrassed for chickening out of the fight you still have to participate in. That was a waste of energy!",
+  				"next":-1
+  			}
+  		]
+	  },
+    {
+  		"id":2.1,
+  		"text":"You fight Bandit 1 in a duel, you mess up horribly and your sword snaps in two. Bandit 1 pulls off some impressive sword moves and slices off a piece of your designer armor. You then surrender, and then he laughs and says he is better than you. You can do nothing but reluctantly agree and think about finding an armorsmith to repair the damage to your armor.",
+  		"options":[
+  			{
+  				"text":"Show Bandit 2 your silver arrow",
+  				"result":"",
+  				"next":-1
+  			},
+  			{
+  				"text":"Challenge Bandit 3 to rap battle",
+  				"result":"",
+  				"next":-1
+  			},
+        {
+  				"text":"Run",
+  				"result":"You run away from the bandits, when you get sort of far away, they come rolling back over to you on a giant rolling ball of twine. You feel embarrassed for chickening out of the fight you still have to participate in. That was a waste of energy!",
+  				"next":-1
+  			}
+  		]
+	  },
+    {
+  		"id":2.2,
+  		"text":"",
+  		"options":[
+  			{
+  				"text":"",
+  				"result":"",
+  				"next":-1
+  			},
+  			{
+  				"text":"",
+  				"result":"",
+  				"next":8
+  			},
+        {
+  				"text":"Run",
+  				"result":"You run away from the bandits, when you get sort of far away, they come rolling back over to you on a giant rolling ball of twine. You feel embarrassed for chickening out of the fight you still have to participate in. That was a waste of energy!",
+  				"next":-1
+  			}
+  		]
+	  },
+    {
+  		"id":2.3,
+  		"text":"",
+  		"options":[
+  			{
+  				"text":"",
+  				"result":"",
+  				"next":-1
+  			},
+  			{
+  				"text":"",
+  				"result":"",
+  				"next":8
+  			},
+        {
+  				"text":"Run",
+  				"result":"You run away from the bandits, when you get sort of far away, they come rolling back over to you on a giant rolling ball of twine. You feel embarrassed for chickening out of the fight you still have to participate in. That was a waste of energy!",
+  				"next":-1
+  			}
+  		]
+	  },
+  ]
 ]

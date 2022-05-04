@@ -2,11 +2,13 @@
 
 <html lang="en">
     <head>
-        <title>TLOH:BOTT</title>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="styles.css">
-        <script defer src="game.js"></script>
+      <title>TLOH:BOTT</title>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="styles/dark.css" id="stylesDoc">
+<!--       <link rel="stylesheet" href="styles/light.css"> -->
+<!--       <link rel="stylesheet" href="styles/rome.css"> -->
+      <script defer src="game.js"></script>
     </head>
     <body>
       <div id="Top">
@@ -29,8 +31,7 @@
       <div id="Header">
         <h1 id="Title">The Legend of Hercules: Breath of the Twine</h1>
         <p id="Desc">A JS based text adventure game where you get to choose your own adventure in the Greco-Roman mythos. </p>
-        <!--<p>Try not to die :D</p>-->
-        <p><a href="./testStyles.html">Themes</a></p>
+        <p><a href="viewThemes.html" id="themeLink">Themes</a></p>
       </div>
       <div class="game">
           <!--Stop hacking-->
@@ -41,10 +42,6 @@
             <input type="button" id="B=Button" name="BButton" value="B" onclick="buttonPress(1)">
             <input type="button" id="CButton" name="CButton" value="C" onclick="buttonPress(2)">
             <input type="button" id="DButton" name="DButton" value="D" onclick="buttonPress(3)">
-            <!--
-              <label for="gameIn">: </label>
-              <input type="text" id="gameIn" name="gameIn" autocomplete="off">
-            -->
           </form>
         <p id="healthbar">Health: uhoh</p>
       </div>

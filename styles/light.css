@@ -4,6 +4,13 @@ body {
   font-family: Calibri, 'Trebuchet MS', sans-serif;
 }
 
+#Top {
+  background-color: #e7e8e8;
+  color: black;
+  padding: 5px;
+  margin-bottom: 5px;
+}
+
 #Header {
   color: black;
   margin-left: 10px;
@@ -11,6 +18,10 @@ body {
 
 #Header p {
   margin-left: 15px;
+}
+
+a {
+  color: black;
 }
 
 .game {
