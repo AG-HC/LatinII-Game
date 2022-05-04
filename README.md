@@ -3,6 +3,10 @@ HTML and JS text-based adventure game based on the Herculean Trials
 
 # Changelog
 
+## 2.2
+* Finished bandit encounter
+* Fixed encounter function running twice
+
 ## 2.1
 * Better latin (sorry Paul)
 * Started work on random encounters

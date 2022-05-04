@@ -959,95 +959,191 @@
 ]
 ]
 [
-  [
-    {
-  		"id":1,
-  		"text":"You are approached by three sketchy looking guys.\nSketchy guys: We are the bandits of the west. Disregard the fact that you are in the east of Greece. It doesn’t matter. We are the bandits of the west.\nOne of the bandits unsheathes his sword, a second bandit pulls out his bow. The third pulls out a parchment containing terrible poetry.",
-  		"options":[
-  			{
-  				"text":"Challenge Bandit 1 to a duel",
-  				"result":"",
-  				"next":2.1
-  			},
-  			{
-  				"text":"Show Bandit 2 your silver arrow",
-  				"result":"",
-  				"next":2.2
-  			},
-        {
-  				"text":"Challenge Bandit 3 to rap battle",
-  				"result":"Temporary You Win! :D\nPlease dont break",
-  				"next":100
-  			},
-        {
-  				"text":"Run",
-  				"result":"You run away from the bandits, when you get sort of far away, they come rolling back over to you on a giant rolling ball of twine. You feel embarrassed for chickening out of the fight you still have to participate in. That was a waste of energy!",
-  				"next":-1
-  			}
-  		]
-	  },
-    {
-  		"id":2.1,
-  		"text":"You fight Bandit 1 in a duel, you mess up horribly and your sword snaps in two. Bandit 1 pulls off some impressive sword moves and slices off a piece of your designer armor. You then surrender, and then he laughs and says he is better than you. You can do nothing but reluctantly agree and think about finding an armorsmith to repair the damage to your armor.",
-  		"options":[
-  			{
-  				"text":"Show Bandit 2 your silver arrow",
-  				"result":"",
-  				"next":-1
-  			},
-  			{
-  				"text":"Challenge Bandit 3 to rap battle",
-  				"result":"",
-  				"next":-1
-  			},
-        {
-  				"text":"Run",
-  				"result":"You run away from the bandits, when you get sort of far away, they come rolling back over to you on a giant rolling ball of twine. You feel embarrassed for chickening out of the fight you still have to participate in. That was a waste of energy!",
-  				"next":-1
-  			}
-  		]
-	  },
-    {
-  		"id":2.2,
-  		"text":"",
-  		"options":[
-  			{
-  				"text":"",
-  				"result":"",
-  				"next":-1
-  			},
-  			{
-  				"text":"",
-  				"result":"",
-  				"next":8
-  			},
-        {
-  				"text":"Run",
-  				"result":"You run away from the bandits, when you get sort of far away, they come rolling back over to you on a giant rolling ball of twine. You feel embarrassed for chickening out of the fight you still have to participate in. That was a waste of energy!",
-  				"next":-1
-  			}
-  		]
-	  },
-    {
-  		"id":2.3,
-  		"text":"",
-  		"options":[
-  			{
-  				"text":"",
-  				"result":"",
-  				"next":-1
-  			},
-  			{
-  				"text":"",
-  				"result":"",
-  				"next":8
-  			},
-        {
-  				"text":"Run",
-  				"result":"You run away from the bandits, when you get sort of far away, they come rolling back over to you on a giant rolling ball of twine. You feel embarrassed for chickening out of the fight you still have to participate in. That was a waste of energy!",
-  				"next":-1
-  			}
-  		]
-	  },
-  ]
+[
+  {
+		"id":1,
+		"text":"You are approached by three sketchy looking guys.\nSketchy guys: We are the bandits of the west. Disregard the fact that you are in the east of Greece. It doesn’t matter. We are the bandits of the west.\nOne of the bandits unsheathes his sword, a second bandit pulls out his bow. The third pulls out a parchment containing terrible poetry.",
+		"options":[
+			{
+				"text":"Challenge Bandit 1 to a duel",
+				"result":"",
+				"next":2.1
+			},
+			{
+				"text":"Show Bandit 2 your silver arrow",
+				"result":"",
+				"next":2.2
+			},
+      {
+				"text":"Challenge Bandit 3 to rap battle",
+				"result":"",
+				"next":2.3
+			},
+      {
+				"text":"Run",
+				"result":"You run away from the bandits, when you get sort of far away, they come rolling back over to you on a giant rolling ball of twine. You feel embarrassed for chickening out of the fight you still have to participate in. That was a waste of energy!",
+				"next":-1
+			}
+		]
+  },
+  {
+		"id":2.1,
+		"text":"You fight Bandit 1 in a duel, you mess up horribly and your sword snaps in two. Bandit 1 pulls off some impressive sword moves and slices off a piece of your designer armor. You then surrender, and then he laughs and says he is better than you. You can do nothing but reluctantly agree and think about finding an armorsmith to repair the damage to your armor.",
+		"options":[
+			{
+				"text":"Show Bandit 2 your silver arrow",
+				"result":"",
+				"next":3.21
+			},
+			{
+				"text":"Challenge Bandit 3 to rap battle",
+				"result":"",
+				"next":3.31
+			},
+      {
+				"text":"Run",
+				"result":"You run away from the bandits, when you get sort of far away, they come rolling back over to you on a giant rolling ball of twine. You feel embarrassed for chickening out of the fight you still have to participate in. That was a waste of energy!",
+				"next":-1
+			}
+		]
+  },
+  {
+		"id":2.2,
+		"text":"You show Bandit 2 your silver arrow and shoot it at a conveniently placed target about 100 meters away. It hits the bullseye. He scoffs and pulls out his collectors edition set of golden arrows, and proceeds to shoot them through your arrow on the bullseye. Bandit 2 is richer than you and better at archery too. You drag your feet along the ground as you go to get your singular poor man’s arrow from the distant target.",
+		"options":[
+			{
+				"text":"Challenge Bandit 1 to a duel",
+				"result":"",
+				"next":3.12
+			},
+			{
+				"text":"Challenge Bandit 3 to rap battle",
+				"result":"",
+				"next":3.32
+			},
+      {
+				"text":"Run",
+				"result":"You run away from the bandits, when you get sort of far away, they come rolling back over to you on a giant rolling ball of twine. You feel embarrassed for chickening out of the fight you still have to participate in. That was a waste of energy!",
+				"next":-1
+			}
+		]
+  },
+  {
+		"id":2.3,
+		"text":"You attempt to destroy Bandit 3 with your epic poetry reading skills. Bandit 3 responds with a poetic diss track that causes the entire of Greece to see you as a worthless meme of an epic hero. Bandit 3 becomes the new hero and does irreparable damage to your massive ego.",
+		"options":[
+			{
+				"text":"Challenge Bandit 1 to a duel",
+				"result":"",
+				"next":3.13
+			},
+			{
+				"text":"Show Bandit 2 your silver arrow",
+				"result":"",
+				"next":3.23
+			},
+      {
+				"text":"Run",
+				"result":"You run away from the bandits, when you get sort of far away, they come rolling back over to you on a giant rolling ball of twine. You feel embarrassed for chickening out of the fight you still have to participate in. That was a waste of energy!",
+				"next":-1
+			}
+		]
+  },
+	{
+		"id":3.21,
+		"text":"You show Bandit 2 your silver arrow and shoot it at a conveniently placed target about 100 meters away. It hits the bullseye. He scoffs and pulls out his collectors edition set of golden arrows, and proceeds to shoot them through your arrow on the bullseye. Bandit 2 is richer than you and better at archery too. You drag your feet along the ground as you go to get your singular poor man’s arrow from the distant target.",
+		"options":[
+			{
+				"text":"Challenge Bandit 3 to rap battle",
+				"result":"You attempt to destroy Bandit 3 with your epic poetry reading skills. Bandit 3 responds with a poetic diss track that causes the entire of Greece to see you as a worthless meme of an epic hero. Bandit 3 becomes the new hero and does irreparable damage to your massive ego.\n\nBandits: Wow, you’re a pretty awful hero, I guess we were wrong about you! After the bandits steal your riches and walk away, you load the three broken pieces of your sword into your bow, and hit all three of them at once, proving yourself to be the superior swordsman and archer. As you steal back your items, you read them a poem as they are agonizing in pain.\n'Roses are red, and I wrote this letter, I deceived you at first, but I am clearly better.'\nYou then see that the bandits are simply puppets with giant strings made of twine. They are connected to a spherical object miles above you. After you hear some maniacal laughter, they are pulled into the sky, never to be seen again, and you continue your journey, not questioning what just happened.",
+				"next":102
+			},
+      {
+				"text":"Run",
+				"result":"You run away from the bandits, when you get sort of far away, they come rolling back over to you on a giant rolling ball of twine. You feel embarrassed for chickening out of the fight you still have to participate in. That was a waste of energy!",
+				"next":-1
+			}
+		]
+  },
+	{
+		"id":3.31,
+		"text":"You attempt to destroy Bandit 3 with your epic poetry reading skills. Bandit 3 responds with a poetic diss track that causes the entire of Greece to see you as a worthless meme of an epic hero. Bandit 3 becomes the new hero and does irreparable damage to your massive ego.",
+		"options":[
+			{
+				"text":"Show Bandit 2 your silver arrow",
+				"result":"You show Bandit 2 your silver arrow and shoot it at a conveniently placed target about 100 meters away. It hits the bullseye. He scoffs and pulls out his collectors edition set of golden arrows, and proceeds to shoot them through your arrow on the bullseye. Bandit 2 is richer than you and better at archery too. You drag your feet along the ground as you go to get your singular poor man’s arrow from the distant target.\n\nBandits: Wow, you’re a pretty awful hero, I guess we were wrong about you! After the bandits steal your riches and walk away, you load the three broken pieces of your sword into your bow, and hit all three of them at once, proving yourself to be the superior swordsman and archer. As you steal back your items, you read them a poem as they are agonizing in pain.\n'Roses are red, and I wrote this letter, I deceived you at first, but I am clearly better.'\nYou then see that the bandits are simply puppets with giant strings made of twine. They are connected to a spherical object miles above you. After you hear some maniacal laughter, they are pulled into the sky, never to be seen again, and you continue your journey, not questioning what just happened.",
+				"next":102
+			},
+      {
+				"text":"Run",
+				"result":"You run away from the bandits, when you get sort of far away, they come rolling back over to you on a giant rolling ball of twine. You feel embarrassed for chickening out of the fight you still have to participate in. That was a waste of energy!",
+				"next":-1
+			}
+		]
+  },
+	{
+		"id":3.12,
+		"text":"You fight Bandit 1 in a duel, you mess up horribly and your sword snaps in two. Bandit 1 pulls off some impressive sword moves and slices off a piece of your designer armor. You then surrender, and then he laughs and says he is better than you. You can do nothing but reluctantly agree and think about finding an armorsmith to repair the damage to your armor.",
+		"options":[
+			{
+				"text":"Challenge Bandit 3 to rap battle",
+				"result":"You attempt to destroy Bandit 3 with your epic poetry reading skills. Bandit 3 responds with a poetic diss track that causes the entire of Greece to see you as a worthless meme of an epic hero. Bandit 3 becomes the new hero and does irreparable damage to your massive ego.\n\nBandits: Wow, you’re a pretty awful hero, I guess we were wrong about you! After the bandits steal your riches and walk away, you load the three broken pieces of your sword into your bow, and hit all three of them at once, proving yourself to be the superior swordsman and archer. As you steal back your items, you read them a poem as they are agonizing in pain.\n'Roses are red, and I wrote this letter, I deceived you at first, but I am clearly better.'\nYou then see that the bandits are simply puppets with giant strings made of twine. They are connected to a spherical object miles above you. After you hear some maniacal laughter, they are pulled into the sky, never to be seen again, and you continue your journey, not questioning what just happened.",
+				"next":102
+			},
+      {
+				"text":"Run",
+				"result":"You run away from the bandits, when you get sort of far away, they come rolling back over to you on a giant rolling ball of twine. You feel embarrassed for chickening out of the fight you still have to participate in. That was a waste of energy!",
+				"next":-1
+			}
+		]
+  },
+	{
+		"id":3.32,
+		"text":"You attempt to destroy Bandit 3 with your epic poetry reading skills. Bandit 3 responds with a poetic diss track that causes the entire of Greece to see you as a worthless meme of an epic hero. Bandit 3 becomes the new hero and does irreparable damage to your massive ego.",
+		"options":[
+			{
+				"text":"Challenge Bandit 1 to a duel",
+				"result":"You fight Bandit 1 in a duel, you mess up horribly and your sword snaps in two. Bandit 1 pulls off some impressive sword moves and slices off a piece of your designer armor. You then surrender, and then he laughs and says he is better than you. You can do nothing but reluctantly agree and think about finding an armorsmith to repair the damage to your armor.\n\nBandits: Wow, you’re a pretty awful hero, I guess we were wrong about you! After the bandits steal your riches and walk away, you load the three broken pieces of your sword into your bow, and hit all three of them at once, proving yourself to be the superior swordsman and archer. As you steal back your items, you read them a poem as they are agonizing in pain.\n'Roses are red, and I wrote this letter, I deceived you at first, but I am clearly better.'\nYou then see that the bandits are simply puppets with giant strings made of twine. They are connected to a spherical object miles above you. After you hear some maniacal laughter, they are pulled into the sky, never to be seen again, and you continue your journey, not questioning what just happened.",
+				"next":102
+			},
+      {
+				"text":"Run",
+				"result":"You run away from the bandits, when you get sort of far away, they come rolling back over to you on a giant rolling ball of twine. You feel embarrassed for chickening out of the fight you still have to participate in. That was a waste of energy!",
+				"next":-1
+			}
+		]
+  },
+	{
+		"id":3.13,
+		"text":"You fight Bandit 1 in a duel, you mess up horribly and your sword snaps in two. Bandit 1 pulls off some impressive sword moves and slices off a piece of your designer armor. You then surrender, and then he laughs and says he is better than you. You can do nothing but reluctantly agree and think about finding an armorsmith to repair the damage to your armor.",
+		"options":[
+			{
+				"text":"Show Bandit 2 your silver arrow",
+				"result":"You show Bandit 2 your silver arrow and shoot it at a conveniently placed target about 100 meters away. It hits the bullseye. He scoffs and pulls out his collectors edition set of golden arrows, and proceeds to shoot them through your arrow on the bullseye. Bandit 2 is richer than you and better at archery too. You drag your feet along the ground as you go to get your singular poor man’s arrow from the distant target.\n\nBandits: Wow, you’re a pretty awful hero, I guess we were wrong about you! After the bandits steal your riches and walk away, you load the three broken pieces of your sword into your bow, and hit all three of them at once, proving yourself to be the superior swordsman and archer. As you steal back your items, you read them a poem as they are agonizing in pain.\n'Roses are red, and I wrote this letter, I deceived you at first, but I am clearly better.'\nYou then see that the bandits are simply puppets with giant strings made of twine. They are connected to a spherical object miles above you. After you hear some maniacal laughter, they are pulled into the sky, never to be seen again, and you continue your journey, not questioning what just happened.",
+				"next":102
+			},
+      {
+				"text":"Run",
+				"result":"You run away from the bandits, when you get sort of far away, they come rolling back over to you on a giant rolling ball of twine. You feel embarrassed for chickening out of the fight you still have to participate in. That was a waste of energy!",
+				"next":-1
+			}
+		]
+  },
+	{
+		"id":3.23,
+		"text":"You show Bandit 2 your silver arrow and shoot it at a conveniently placed target about 100 meters away. It hits the bullseye. He scoffs and pulls out his collectors edition set of golden arrows, and proceeds to shoot them through your arrow on the bullseye. Bandit 2 is richer than you and better at archery too. You drag your feet along the ground as you go to get your singular poor man’s arrow from the distant target.",
+		"options":[
+			{
+				"text":"Challenge Bandit 1 to a duel",
+				"result":"You fight Bandit 1 in a duel, you mess up horribly and your sword snaps in two. Bandit 1 pulls off some impressive sword moves and slices off a piece of your designer armor. You then surrender, and then he laughs and says he is better than you. You can do nothing but reluctantly agree and think about finding an armorsmith to repair the damage to your armor.\n\nBandits: Wow, you’re a pretty awful hero, I guess we were wrong about you! After the bandits steal your riches and walk away, you load the three broken pieces of your sword into your bow, and hit all three of them at once, proving yourself to be the superior swordsman and archer. As you steal back your items, you read them a poem as they are agonizing in pain.\n'Roses are red, and I wrote this letter, I deceived you at first, but I am clearly better.'\nYou then see that the bandits are simply puppets with giant strings made of twine. They are connected to a spherical object miles above you. After you hear some maniacal laughter, they are pulled into the sky, never to be seen again, and you continue your journey, not questioning what just happened.",
+				"next":102
+			},
+      {
+				"text":"Run",
+				"result":"You run away from the bandits, when you get sort of far away, they come rolling back over to you on a giant rolling ball of twine. You feel embarrassed for chickening out of the fight you still have to participate in. That was a waste of energy!",
+				"next":-1
+			}
+		]
+  }
+]
 ]
